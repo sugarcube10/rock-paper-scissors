@@ -1,7 +1,10 @@
 function getComputerChoice() {
+
     let computerChoice = Math.round(Math.random() * 3);
-    console.log(computerChoice);
+    return computerChoice;
+
 }
 
 
-getComputerChoice();
+
+
