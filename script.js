@@ -5,3 +5,10 @@ function getComputerChoice() {
 
 }
 
+function getHumanChoice() {
+
+    let playerChoice = prompt("enter rock, paper or scissors");
+    return playerChoice;
+
+}
+
