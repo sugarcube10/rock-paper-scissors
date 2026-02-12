@@ -41,3 +41,14 @@ function playRound(computerChoice, humanChoice) {
 
 }
 
+for (let i = 0; i < 5; i++) {
+
+    const humanSelection = getHumanChoice();
+    const computerSelection = getComputerChoice();
+
+    playRound(computerSelection, humanSelection);
+
+}
+
+console.log("Human score =" + humanScore);
+console.log("Computer score =" + computerScore);
